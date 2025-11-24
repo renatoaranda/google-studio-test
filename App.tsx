@@ -21,7 +21,7 @@ const App: React.FC = () => {
            <div className="w-6 h-6 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-md flex items-center justify-center">
             <Rocket className="w-3 h-3 text-white" />
           </div>
-          Velox
+          AI Google Studio test
         </span>
       </header>
 
@@ -43,7 +43,7 @@ const App: React.FC = () => {
           <div className={`p-1.5 rounded-xl transition-all ${activeTab === Tab.HOME ? 'bg-indigo-500/10' : 'bg-transparent'}`}>
             <Rocket className={`w-6 h-6 ${activeTab === Tab.HOME ? 'fill-current' : ''}`} />
           </div>
-          <span className="text-[10px] font-medium tracking-wide">Waitlist</span>
+          <span className="text-[10px] font-medium tracking-wide">Home</span>
         </button>
 
         <button
@@ -55,7 +55,7 @@ const App: React.FC = () => {
           <div className={`p-1.5 rounded-xl transition-all ${activeTab === Tab.CREDITS ? 'bg-indigo-500/10' : 'bg-transparent'}`}>
             <Users className={`w-6 h-6 ${activeTab === Tab.CREDITS ? 'fill-current' : ''}`} />
           </div>
-          <span className="text-[10px] font-medium tracking-wide">Credits</span>
+          <span className="text-[10px] font-medium tracking-wide">Creditos</span>
         </button>
       </nav>
     </div>

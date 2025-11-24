@@ -3,10 +3,7 @@ import { CreditEntry } from '../types';
 import { Heart } from 'lucide-react';
 
 const TEAM: CreditEntry[] = [
-  { role: 'Lead Developer', name: 'Alex Johnson', avatarUrl: 'https://picsum.photos/100/100?random=1' },
-  { role: 'UI/UX Designer', name: 'Sarah Williams', avatarUrl: 'https://picsum.photos/100/100?random=2' },
-  { role: 'Product Manager', name: 'Michael Chen', avatarUrl: 'https://picsum.photos/100/100?random=3' },
-  { role: 'Frontend Engineer', name: 'Emily Davis', avatarUrl: 'https://picsum.photos/100/100?random=4' },
+  { role: 'Developer', name: 'Renato Aranda', avatarUrl: 'https://picsum.photos/100/100?random=1' }
 ];
 
 export const Credits: React.FC = () => {
@@ -44,7 +41,7 @@ export const Credits: React.FC = () => {
 
       <div className="mt-12 text-center">
         <p className="flex items-center justify-center text-slate-600 text-xs">
-          Made with <Heart className="w-3 h-3 text-red-500 mx-1 fill-current" /> in 2024
+          Made with <Heart className="w-3 h-3 text-red-500 mx-1 fill-current" /> in November 2025
         </p>
       </div>
     </div>
